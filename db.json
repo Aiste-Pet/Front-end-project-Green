@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "5b87548d-1d78-4516-8b43-3c1aab2e0baf",
+      "title": "Practical Rubber Fish",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "4296.46",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.7",
+        "count": "683"
+      }
+    },
+    {
+      "id": "d094593b-0e80-4e6f-b95b-a9169f064e17",
+      "title": "Rustic Steel Sausages",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "price": "8499.42",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3",
+        "count": "7741"
+      }
+    },
+    {
+      "id": "17a03aa5-3e55-4b27-886c-35677f30a5fc",
+      "title": "Intelligent Concrete Chicken",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "8528",
+      "category": "Electronics",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.7",
+        "count": "6310"
+      }
+    },
+    {
+      "id": "54ec2aa6-a037-4023-b72b-502a8e56d423",
+      "title": "Incredible Granite Hat",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "3091.52",
+      "category": "Kindle",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "0.5",
+        "count": "843"
+      }
+    },
+    {
+      "id": "7cba67ff-37bb-49a4-9b03-45814a84f768",
+      "title": "Awesome Rubber Salad",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "price": "7593.89",
+      "category": "Baby & Personal Care",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.1",
+        "count": "3344"
+      }
+    },
+    {
+      "id": "d900a9b9-cc71-4182-84db-7df51392f8ff",
+      "title": "Ergonomic Frozen Towels",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "price": "5981.12",
+      "category": "Clothing",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3",
+        "count": "6804"
+      }
+    },
+    {
+      "id": "6ee6b730-a2e0-41a8-b326-eafdf2d52385",
+      "title": "Handmade Frozen Salad",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "6217.85",
+      "category": "Movies & TV",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "4.1",
+        "count": "1112"
+      }
+    },
+    {
+      "id": "1d9a16d5-cbed-4907-989e-36606ae0eb2b",
+      "title": "Ergonomic Granite Bacon",
+      "description": "Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "2209.62",
+      "category": "Video Games",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "4.9",
+        "count": "7794"
+      }
+    },
+    {
+      "id": "af910a6b-92a2-484e-9226-9f5b677377ad",
+      "title": "Intelligent Concrete Chicken",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "price": "6587.4",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "0.6",
+        "count": "8651"
+      }
+    },
+    {
+      "id": "245d5451-2142-4a04-beba-97bbcca2b501",
+      "title": "Handmade Plastic Tuna",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "919.89",
+      "category": "Video Games",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.5",
+        "count": "763"
+      }
+    },
+    {
+      "id": "6cf73fd3-d5f5-44da-b47c-740e1c78f8b1",
+      "title": "Unbranded Wooden Keyboard",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "1763.92",
+      "category": "Garden",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.1",
+        "count": "6533"
+      }
+    },
+    {
+      "id": "50a96ec0-f0c9-4cf6-993c-2e2b4fecbc78",
+      "title": "Unbranded Concrete Sausages",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "price": "3118.49",
+      "category": "Health & Beauty",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.3",
+        "count": "4104"
+      }
+    },
+    {
+      "id": "829d61e9-b8dc-40a9-9a6d-785a7e983c05",
+      "title": "Rustic Metal Towels",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "price": "8377.03",
+      "category": "Computers & Tablets",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.5",
+        "count": "2638"
+      }
+    },
+    {
+      "id": "b52623ad-acae-4fac-8828-141bd4d294cf",
+      "title": "Tasty Soft Sausages",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "9479.89",
+      "category": "Appliances",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.3",
+        "count": "8267"
+      }
+    },
+    {
+      "id": "ad662f57-6911-4521-a32a-4538c0b4eec0",
+      "title": "Fantastic Steel Hat",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "price": "9758.95",
+      "category": "Movies & TV",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.7",
+        "count": "6247"
+      }
+    },
+    {
+      "id": "1ddc71e0-e1ed-4796-95ec-ce2d2efcff1a",
+      "title": "Generic Rubber Sausages",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "5204.09",
+      "category": "Appliances",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.5",
+        "count": "8856"
+      }
+    },
+    {
+      "id": "32c4f05c-1af8-414a-94e8-37b2d10afdb2",
+      "title": "Awesome Wooden Hat",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "price": "9499.09",
+      "category": "Books",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.3",
+        "count": "6551"
+      }
+    },
+    {
+      "id": "a6b547c1-f92b-4985-9184-fc5eaa1b5d23",
+      "title": "Unbranded Concrete Sausages",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "price": "8266.71",
+      "category": "Automotive Parts",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "4.7",
+        "count": "1527"
+      }
+    },
+    {
+      "id": "63bc3221-d50a-48bf-80e1-f05c4effb430",
+      "title": "Generic Metal Shirt",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "9913.7",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.7",
+        "count": "1395"
+      }
+    },
+    {
+      "id": "52c2313a-e4e4-4ca2-85c9-7f70458e0d4f",
+      "title": "Generic Plastic Keyboard",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "price": "9376.92",
+      "category": "Grocery",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.2",
+        "count": "6422"
+      }
+    },
+    {
+      "id": "9a24089b-f4c7-49fd-bf6e-24f868b36c64",
+      "title": "Handcrafted Concrete Bacon",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "price": "8813.74",
+      "category": "Books",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.9",
+        "count": "4448"
+      }
+    },
+    {
+      "id": "49b1e723-68d4-43d0-93e7-9d1e93b50d2c",
+      "title": "Awesome Steel Towels",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "6834.72",
+      "category": "Garden",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3",
+        "count": "6694"
+      }
+    },
+    {
+      "id": "0e0852b3-7623-40ad-8c08-89a0a7c8c4b0",
+      "title": "Sleek Plastic Chips",
+      "description": "Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "1594",
+      "category": "CDs & Vinyl",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.7",
+        "count": "9440"
+      }
+    },
+    {
+      "id": "b405f5ca-6b66-4b67-8403-a8c32b4f0569",
+      "title": "Licensed Steel Chips",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "5375.14",
+      "category": "Kindle",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.9",
+        "count": "2819"
+      }
+    }
+  ]
+}
