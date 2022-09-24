@@ -1,0 +1,156 @@
+body {
+  font-family: "Reem Kufi Fun", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 30%;
+  background-color: rgb(67, 181, 31);
+  text-align: center;
+}
+
+#logo > img {
+  max-height: 10vh;
+  /* width: 100%; */
+}
+
+.phone > img {
+  height: 30px;
+  width: 30px;
+}
+
+.phone {
+  display: flex;
+  width: 20%;
+}
+
+nav,
+.phone > p,
+.phone > img {
+  margin: auto 0;
+}
+
+nav > a {
+  padding: 0 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.664);
+}
+
+nav {
+  padding: 1em;
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+nav > a:active {
+  color: rgb(67, 181, 31);
+}
+
+.phone > p {
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+.topContainer {
+  display: flex;
+  width: 100%;
+}
+
+.filtersContainer {
+  width: 30%;
+}
+
+.filtersContainer > ul {
+  padding: 2em;
+  margin: 2em;
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+.filtersContainer > ul > li {
+  padding-bottom: 0.5em;
+  font-size: larger;
+}
+
+.filtersContainer > ul > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.imageContainer {
+  width: 70%;
+  box-sizing: border-box;
+  margin: 2em;
+  border-radius: 10px;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg");
+}
+
+.itemsContainer {
+  margin: 2em;
+  background-color: rgba(0, 0, 0, 0.021);
+  padding: 2em;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  gap: 1em;
+}
+
+.itemCard {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.itemCard > img {
+  margin-top: 1em;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+.itemCard > button {
+  margin: 1em;
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#loading {
+  width: 2rem;
+  height: 2rem;
+  border: 5px solid #f3f3f3;
+  border-top: 6px solid rgb(67, 181, 31);
+  border-radius: 100%;
+  margin: 1% auto;
+  display: none;
+  animation: spin 1s infinite linear;
+}
+
+#loading.display {
+  display: block;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
