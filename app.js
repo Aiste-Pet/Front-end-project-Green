@@ -8,12 +8,13 @@ const categoryAll = ["All items"];
 let deleteButtons = "";
 let categories = [];
 
-function fetchData(callbackFunction) {
+function fetchData(URL, callbackFunction1, callbackFunction2) {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => {
       items = data;
-      callbackFunction();
+      callbackFunction1();
+      if (callbackFunction2) callbackFunction2();
       hideLoading();
     })
     .catch((error) => {
@@ -22,13 +23,16 @@ function fetchData(callbackFunction) {
 }
 
 function renderItems() {
+  appendItems(items);
+  deleteButtons = document.querySelectorAll(".itemCard button");
+  elementsEvent(deleteButtons, deleteById);
+}
+
+function renderCategories() {
   getUniqueCategories(items);
   createFilters(categoryAll);
   createFilters(filters);
-  appendItems(items);
-  deleteButtons = document.querySelectorAll(".itemCard button");
   categories = document.querySelectorAll(".filtersContainer li");
-  elementsEvent(deleteButtons, deleteById);
   elementsEvent(categories, filterByCategory);
 }
 
@@ -110,7 +114,6 @@ function deleteById(elementTarget) {
 
 function filterByCategory(categoryTarget) {
   const categoryName = categoryTarget.innerText;
-  console.log(categories);
   categories.forEach((category) => {
     category.classList.remove("active");
   });
@@ -118,20 +121,24 @@ function filterByCategory(categoryTarget) {
   displayLoading();
   if (categoryName === categoryAll.toString()) {
     hideLoading();
-    appendItems(items); //filtering already fetched items
+    // appendItems(items); //filtering already fetched items
+    fetchData(URL, renderItems);
   } else {
-    categoryTarget.classList.add("active");
+    debugger;
+    const filterURL = `${URL}?category=${encodeURIComponent(categoryName)}`;
     hideLoading();
-    const filteredItems = items.filter(
-      (item) => item.category === categoryName
-    );
-    appendItems(filteredItems); //filtering already fetched items
+    fetchData(filterURL, renderItems);
+    categoryTarget.classList.add("active");
+    // const filteredItems = items.filter(      //filtering already fetched items
+    //   (item) => item.category === categoryName  //filtering already fetched items
+    // );  //filtering already fetched items
+    // appendItems(filteredItems); //filtering already fetched items
   }
 }
 
 function getItems() {
   displayLoading();
-  fetchData(renderItems);
+  fetchData(URL, renderItems, renderCategories);
 }
 
 getItems();

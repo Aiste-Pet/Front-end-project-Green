@@ -8,9 +8,10 @@ header {
 }
 
 #logo {
-  width: 30%;
+  width: 25%;
   background-color: rgb(67, 181, 31);
   text-align: center;
+  border-bottom-right-radius: 20px;
 }
 
 #logo > img {
