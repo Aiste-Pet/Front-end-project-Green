@@ -8,7 +8,8 @@ header {
 }
 
 #logo {
-  width: 25%;
+  width: 30%;
+  margin-right: 2em;
   background-color: rgb(67, 181, 31);
   text-align: center;
   border-bottom-right-radius: 20px;
