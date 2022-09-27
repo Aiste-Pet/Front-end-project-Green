@@ -156,3 +156,70 @@ nav > a:active {
     transform: rotate(360deg);
   }
 }
+
+.formContainer {
+  margin: 2em auto;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.021);
+  padding: 2em;
+  border-radius: 20px;
+}
+
+.formContainer > h2 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+form[name="addItem"] {
+  width: 80%;
+  margin: 1em auto;
+}
+
+form[name="addItem"] input[type="text"],
+form[name="addItem"] input[type="number"],
+form[name="addItem"] textarea {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.formButtons input[type="submit"],
+.formButtons button {
+  width: 30%;
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.formButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+form[name="addItem"] input[type="submit"] {
+  background-color: rgb(67, 181, 31);
+  color: white;
+}
+
+form[name="addItem"] input[type="submit"]:hover {
+  background-color: rgb(51, 134, 26);
+}
+
+.response {
+  margin: 1em auto;
+  width: 80%;
+  padding: 1em 2em;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+.success {
+  background-color: rgb(120, 207, 93);
+}
+
+.fail {
+  background-color: rgb(235, 102, 102);
+}
