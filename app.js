@@ -22,6 +22,7 @@ function getItems() {
 
 function renderCategories(data) {
   filters = getUniqueCategories(data, categories, filters);
+  localStorage.setItem("categories", filters);
   createFilters(categoryAll, filterList);
   createFilters(filters, filterList);
   categories = document.querySelectorAll(".filtersContainer li");
