@@ -8,6 +8,7 @@ export function fetchData(URL, callbackFunction1, callbackFunction2) {
       callbackFunction1(data);
       if (callbackFunction2) callbackFunction2(data);
       hideLoading();
+      return data;
     })
     .catch((error) => {
       console.error(error);

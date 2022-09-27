@@ -7,7 +7,7 @@ import { appendItems } from "./items.js";
 export function getUniqueCategories(items, categories, filters) {
   items.map((item) => categories.push(item.category));
   const unsortedFilters = [...new Set(categories)];
-  return (filters = unsortedFilters.sort());
+  return unsortedFilters.sort();
 }
 
 export function createFilters(filters, filterList) {

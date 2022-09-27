@@ -80,17 +80,17 @@ async function addItem(item) {
       method: "POST",
       body: JSON.stringify(item),
     });
-    response.classList.add("success");
-    response.innerText = "New item has been added successfully.";
   } catch (error) {
     response.classList.add("fail");
     response.innerText = "Failed to add item.";
+  } finally {
+    response.classList.add("success");
+    response.innerText = "New item has been added successfully.";
   }
 }
 
 function createCategoriesDatalist() {
   const categories = localStorage.getItem("categories").split(",");
-  console.log(categories);
   if (categories.length != 0) {
     const datalist = document.querySelector("#categories");
     categories.forEach((category) => {

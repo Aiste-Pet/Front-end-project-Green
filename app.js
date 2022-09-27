@@ -10,14 +10,14 @@ import { appendItems } from "./items.js";
 
 const filterList = document.querySelector(".filtersContainer > ul");
 const itemsList = document.querySelector(".itemsContainer");
-let items = [];
 let filters = [];
 let deleteButtons = "";
 let categories = [];
 
 function getItems() {
   displayLoading();
-  fetchData(URL, renderItems, renderCategories);
+  const data = fetchData(URL, renderItems, renderCategories);
+  return data;
 }
 
 function renderCategories(data) {
@@ -33,7 +33,6 @@ export function renderItems(data) {
   appendItems(data, itemsList);
   deleteButtons = document.querySelectorAll(".itemCard button");
   elementsEvent(deleteButtons, deleteById, categories, itemsList, items);
-  return (items = data);
 }
 
-getItems();
+const items = getItems();
