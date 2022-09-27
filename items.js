@@ -15,15 +15,28 @@ function createItemCard(item) {
   }).format(+item.price);
   const description = document.createElement("p");
   description.innerText = item.category + ": " + item.description;
-  const rating = document.createElement("meter");
-  rating.value = (item.rating.rate / 10) * 2;
+  const ratingOuter = document.createElement("div");
+  ratingOuter.classList.add("stars-outer");
+  const ratingInner = document.createElement("div");
+  ratingInner.classList.add("stars-inner");
+  const ratingPersentage = +item.rating.rate * 20;
+  ratingInner.style.width = ratingPersentage + "%";
+  ratingOuter.appendChild(ratingInner);
   const button = document.createElement("button");
   button.innerText = "Delete";
   const breakLine = document.createElement("br");
   const itemCard = document.createElement("div");
   itemCard.id = item.id;
   itemCard.classList.add("itemCard");
-  itemCard.append(image, name, price, description, rating, breakLine, button);
+  itemCard.append(
+    image,
+    name,
+    price,
+    description,
+    ratingOuter,
+    breakLine,
+    button
+  );
   return itemCard;
 }
 
