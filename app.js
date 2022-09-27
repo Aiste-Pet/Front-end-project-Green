@@ -11,6 +11,7 @@ import { appendItems } from "./items.js";
 const filterList = document.querySelector(".filtersContainer > ul");
 const itemsList = document.querySelector(".itemsContainer");
 let filters = [];
+let items = [];
 let deleteButtons = "";
 let categories = [];
 
@@ -20,8 +21,8 @@ function getItems() {
   return data;
 }
 
-function renderCategories(data) {
-  filters = getUniqueCategories(data, categories, filters);
+function renderCategories(items) {
+  filters = getUniqueCategories(items, categories, filters);
   localStorage.setItem("categories", filters);
   createFilters(categoryAll, filterList);
   createFilters(filters, filterList);
@@ -29,10 +30,10 @@ function renderCategories(data) {
   elementsEvent(categories, filterByCategory, categories, itemsList, items);
 }
 
-export function renderItems(data) {
-  appendItems(data, itemsList);
+export function renderItems(items) {
+  appendItems(items, itemsList);
   deleteButtons = document.querySelectorAll(".itemCard button");
   elementsEvent(deleteButtons, deleteById, categories, itemsList, items);
 }
 
-const items = getItems();
+items = getItems();

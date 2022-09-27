@@ -1,7 +1,5 @@
 import { displayLoading, hideLoading } from "./spinner.js";
-import { fetchData } from "./utils.js";
 import { URL, categoryAll } from "./constants.js";
-import { renderItems } from "./app.js";
 import { appendItems } from "./items.js";
 
 export function getUniqueCategories(items, categories, filters) {
