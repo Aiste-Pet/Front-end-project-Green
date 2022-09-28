@@ -458,75 +458,15 @@
     },
     {
       "title": "Rubber Duck",
-      "price": 100,
-      "category": "",
-      "description": "Test",
+      "price": 158625,
+      "category": "Toys",
+      "description": "t may be made of rubber or rubber-like material such as vinyl plastic. Rubber ducks were invented in the late 1800s when it became possible to more easily shape rubber, and are believed to improve developmental skills in children during water play.",
       "image": "https://media.istockphoto.com/photos/rubber-duck-picture-id657125714?k=20&m=657125714&s=170667a&w=0&h=QxUI_92kuUWhrhqFpI-lrT-jU8nB4LrQpkNwzjE4Eag=",
       "rating": {
-        "rate": "",
+        "rate": "5",
         "count": "1"
       },
-      "id": "SrJZpGz"
-    },
-    {
-      "title": "Rubber Duck",
-      "price": 100,
-      "category": "Antiques",
-      "description": "Test",
-      "image": "https://media.istockphoto.com/photos/rubber-duck-picture-id657125714?k=20&m=657125714&s=170667a&w=0&h=QxUI_92kuUWhrhqFpI-lrT-jU8nB4LrQpkNwzjE4Eag=",
-      "rating": {
-        "rate": "",
-        "count": "1"
-      },
-      "id": "YYpcLTk"
-    },
-    {
-      "title": "Rubber Duck",
-      "price": 100,
-      "category": "Antiques",
-      "description": "Test",
-      "image": "https://media.istockphoto.com/photos/rubber-duck-picture-id657125714?k=20&m=657125714&s=170667a&w=0&h=QxUI_92kuUWhrhqFpI-lrT-jU8nB4LrQpkNwzjE4Eag=",
-      "rating": {
-        "rate": "",
-        "count": "1"
-      },
-      "id": "NDlZIjp"
-    },
-    {
-      "title": "Rubber Duck",
-      "price": 100,
-      "category": "Antiques",
-      "description": "Test",
-      "image": "https://media.istockphoto.com/photos/rubber-duck-picture-id657125714?k=20&m=657125714&s=170667a&w=0&h=QxUI_92kuUWhrhqFpI-lrT-jU8nB4LrQpkNwzjE4Eag=",
-      "rating": {
-        "rate": "",
-        "count": "1"
-      },
-      "id": "uca0orI"
-    },
-    {
-      "title": "Rubber Duck",
-      "price": 100,
-      "category": "Antiques",
-      "description": "test",
-      "image": "https://media.istockphoto.com/photos/rubber-duck-picture-id657125714?k=20&m=657125714&s=170667a&w=0&h=QxUI_92kuUWhrhqFpI-lrT-jU8nB4LrQpkNwzjE4Eag=",
-      "rating": {
-        "rate": "1",
-        "count": "1"
-      },
-      "id": "cLds31u"
-    },
-    {
-      "title": "Rubber Duck",
-      "price": 100,
-      "category": "Antiques",
-      "description": "test",
-      "image": "https://media.istockphoto.com/photos/rubber-duck-picture-id657125714?k=20&m=657125714&s=170667a&w=0&h=QxUI_92kuUWhrhqFpI-lrT-jU8nB4LrQpkNwzjE4Eag=",
-      "rating": {
-        "rate": "1",
-        "count": "1"
-      },
-      "id": "wjitv2b"
+      "id": "_6e5GQw"
     }
   ]
 }

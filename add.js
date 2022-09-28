@@ -71,7 +71,7 @@ document.querySelector("#buttonAdd").addEventListener("click", (event) => {
   } else {
     const rating = new Rating(rate, "1");
     const item = new Item(name, price, category, description, image, rating);
-    //     // addItem(item).then(() => response.classList.add("success");
+    // addItem(item).then(() => document.querySelector("form").reset()); // leaving this commented until refresh after submit is solved
     addItem(item);
   }
 });
