@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green</title>
-    <script type="module" src="add.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -49,6 +48,7 @@
     <main>
       <div class="formContainer">
         <h2>Add an item</h2>
+        <div id="loading"></div>
         <div class="response"></div>
         <form action="" name="addItem">
           <label for="name">Enter item name</label>
@@ -101,12 +101,13 @@
             placeholder="4.9"
             max="5"
           />
-          <div class="formButtons">
-            <input type="submit" value="Add item" />
-            <button onclick="history.back()">Back</button>
-          </div>
         </form>
+        <div class="formButtons">
+          <button id="buttonAdd">Add item</button>
+          <button onclick="history.back()">Back</button>
+        </div>
       </div>
+      <script type="module" src="add.js"></script>
     </main>
     <footer>Copyright &copy; 2022</footer>
   </body>

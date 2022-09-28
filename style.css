@@ -170,7 +170,8 @@ nav > a:active {
   padding-bottom: 1em;
 }
 
-form[name="addItem"] {
+form[name="addItem"],
+.formButtons {
   width: 80%;
   margin: 1em auto;
 }
@@ -183,7 +184,7 @@ form[name="addItem"] textarea {
   margin: 1em 0;
 }
 
-.formButtons input[type="submit"],
+.formButtons #buttonAdd,
 .formButtons button {
   width: 30%;
   border: 1px solid rgb(67, 181, 31);
@@ -196,12 +197,12 @@ form[name="addItem"] textarea {
   justify-content: space-between;
 }
 
-form[name="addItem"] input[type="submit"] {
+#buttonAdd {
   background-color: rgb(67, 181, 31);
   color: white;
 }
 
-form[name="addItem"] input[type="submit"]:hover {
+#buttonAdd:hover {
   background-color: rgb(51, 134, 26);
 }
 
