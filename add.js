@@ -1,4 +1,5 @@
 import { URL } from "./constants.js";
+import { displayLoading, hideLoading } from "./spinner.js";
 
 const response = document.querySelector(".response");
 
@@ -38,8 +39,12 @@ class Rating {
 }
 createCategoriesDatalist();
 
-document.querySelector("form").addEventListener("submit", (event) => {
-  event.preventDefault();
+document.querySelector("#buttonAdd").addEventListener("click", (event) => {
+  const validity = document.querySelector("form").reportValidity();
+  if (validity === false) {
+    return validity;
+  }
+  event.preventDefault;
   response.classList.remove("success", "fail");
   response.innerText = "";
   const name = document.querySelector(
@@ -66,27 +71,51 @@ document.querySelector("form").addEventListener("submit", (event) => {
   } else {
     const rating = new Rating(rate, "1");
     const item = new Item(name, price, category, description, image, rating);
-    addItem(item).then(() => document.querySelector("form").reset());
+    //     // addItem(item).then(() => response.classList.add("success");
+    addItem(item);
   }
 });
 
-async function addItem(item) {
-  try {
-    await fetch(URL, {
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      method: "POST",
-      body: JSON.stringify(item),
+// async function addItem(item) {
+//   displayLoading();
+//   try {
+//     await fetch(URL, {
+//       headers: {
+//         Accept: "application/json",
+//         "Content-Type": "application/json",
+//       },
+//       method: "POST",
+//       body: JSON.stringify(item),
+//     });
+//     response.classList.add("success");
+//     response.innerText = "New item has been added successfully.";
+//   } catch (error) {
+//     response.classList.add("fail");
+//     response.innerText = "Failed to add item.";
+//   } finally {
+//     hideLoading();
+//   }
+// }
+
+function addItem(item) {
+  displayLoading();
+  return fetch(URL, {
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+    method: "POST",
+    body: JSON.stringify(item),
+  })
+    .then(() => {
+      hideLoading();
+      response.classList.add("success");
+      response.innerText = "New item has been added successfully.";
+    })
+    .catch((error) => {
+      response.classList.add("fail");
+      response.innerText = error;
     });
-  } catch (error) {
-    response.classList.add("fail");
-    response.innerText = "Failed to add item.";
-  } finally {
-    response.classList.add("success");
-    response.innerText = "New item has been added successfully.";
-  }
 }
 
 function createCategoriesDatalist() {
