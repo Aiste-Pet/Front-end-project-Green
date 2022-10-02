@@ -1,0 +1,484 @@
+{
+  "items": [
+    {
+      "id": "5b87548d-1d78-4516-8b43-3c1aab2e0baf",
+      "title": "Practical Rubber Fish",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "4296.46",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.7",
+        "count": "683"
+      }
+    },
+    {
+      "id": "d094593b-0e80-4e6f-b95b-a9169f064e17",
+      "title": "Rustic Steel Sausages",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "price": "8499.42",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3",
+        "count": "7741"
+      }
+    },
+    {
+      "id": "17a03aa5-3e55-4b27-886c-35677f30a5fc",
+      "title": "Intelligent Concrete Chicken",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "8528",
+      "category": "Electronics",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.7",
+        "count": "6310"
+      }
+    },
+    {
+      "id": "54ec2aa6-a037-4023-b72b-502a8e56d423",
+      "title": "Incredible Granite Hat",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "3091.52",
+      "category": "Kindle",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "0.5",
+        "count": "843"
+      }
+    },
+    {
+      "id": "7cba67ff-37bb-49a4-9b03-45814a84f768",
+      "title": "Awesome Rubber Salad",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "price": "7593.89",
+      "category": "Baby & Personal Care",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.1",
+        "count": "3344"
+      }
+    },
+    {
+      "id": "d900a9b9-cc71-4182-84db-7df51392f8ff",
+      "title": "Ergonomic Frozen Towels",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "price": "5981.12",
+      "category": "Clothing",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3",
+        "count": "6804"
+      }
+    },
+    {
+      "id": "6ee6b730-a2e0-41a8-b326-eafdf2d52385",
+      "title": "Handmade Frozen Salad",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "6217.85",
+      "category": "Movies & TV",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "4.1",
+        "count": "1112"
+      }
+    },
+    {
+      "id": "1d9a16d5-cbed-4907-989e-36606ae0eb2b",
+      "title": "Ergonomic Granite Bacon",
+      "description": "Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "2209.62",
+      "category": "Video Games",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "4.9",
+        "count": "7794"
+      }
+    },
+    {
+      "id": "af910a6b-92a2-484e-9226-9f5b677377ad",
+      "title": "Intelligent Concrete Chicken",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "price": "6587.4",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "0.6",
+        "count": "8651"
+      }
+    },
+    {
+      "id": "245d5451-2142-4a04-beba-97bbcca2b501",
+      "title": "Handmade Plastic Tuna",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "919.89",
+      "category": "Video Games",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.5",
+        "count": "763"
+      }
+    },
+    {
+      "id": "6cf73fd3-d5f5-44da-b47c-740e1c78f8b1",
+      "title": "Unbranded Wooden Keyboard",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "1763.92",
+      "category": "Garden",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.1",
+        "count": "6533"
+      }
+    },
+    {
+      "id": "50a96ec0-f0c9-4cf6-993c-2e2b4fecbc78",
+      "title": "Unbranded Concrete Sausages",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "price": "3118.49",
+      "category": "Health & Beauty",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.3",
+        "count": "4104"
+      }
+    },
+    {
+      "id": "829d61e9-b8dc-40a9-9a6d-785a7e983c05",
+      "title": "Rustic Metal Towels",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "price": "8377.03",
+      "category": "Computers & Tablets",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.5",
+        "count": "2638"
+      }
+    },
+    {
+      "id": "b52623ad-acae-4fac-8828-141bd4d294cf",
+      "title": "Tasty Soft Sausages",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "9479.89",
+      "category": "Appliances",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.3",
+        "count": "8267"
+      }
+    },
+    {
+      "id": "ad662f57-6911-4521-a32a-4538c0b4eec0",
+      "title": "Fantastic Steel Hat",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "price": "9758.95",
+      "category": "Movies & TV",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.7",
+        "count": "6247"
+      }
+    },
+    {
+      "id": "1ddc71e0-e1ed-4796-95ec-ce2d2efcff1a",
+      "title": "Generic Rubber Sausages",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "5204.09",
+      "category": "Appliances",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.5",
+        "count": "8856"
+      }
+    },
+    {
+      "id": "32c4f05c-1af8-414a-94e8-37b2d10afdb2",
+      "title": "Awesome Wooden Hat",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "price": "9499.09",
+      "category": "Books",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.3",
+        "count": "6551"
+      }
+    },
+    {
+      "id": "a6b547c1-f92b-4985-9184-fc5eaa1b5d23",
+      "title": "Unbranded Concrete Sausages",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "price": "8266.71",
+      "category": "Automotive Parts",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "4.7",
+        "count": "1527"
+      }
+    },
+    {
+      "id": "63bc3221-d50a-48bf-80e1-f05c4effb430",
+      "title": "Generic Metal Shirt",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "price": "9913.7",
+      "category": "Antiques",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.7",
+        "count": "1395"
+      }
+    },
+    {
+      "id": "52c2313a-e4e4-4ca2-85c9-7f70458e0d4f",
+      "title": "Generic Plastic Keyboard",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "price": "9376.92",
+      "category": "Grocery",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.2",
+        "count": "6422"
+      }
+    },
+    {
+      "id": "9a24089b-f4c7-49fd-bf6e-24f868b36c64",
+      "title": "Handcrafted Concrete Bacon",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "price": "8813.74",
+      "category": "Books",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.9",
+        "count": "4448"
+      }
+    },
+    {
+      "id": "49b1e723-68d4-43d0-93e7-9d1e93b50d2c",
+      "title": "Awesome Steel Towels",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "6834.72",
+      "category": "Garden",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3",
+        "count": "6694"
+      }
+    },
+    {
+      "id": "0e0852b3-7623-40ad-8c08-89a0a7c8c4b0",
+      "title": "Sleek Plastic Chips",
+      "description": "Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "1594",
+      "category": "CDs & Vinyl",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.7",
+        "count": "9440"
+      }
+    },
+    {
+      "id": "b405f5ca-6b66-4b67-8403-a8c32b4f0569",
+      "title": "Licensed Steel Chips",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "5375.14",
+      "category": "Kindle",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.9",
+        "count": "2819"
+      }
+    },
+    {
+      "id": "7616c987-158e-4d45-924c-adc9a20c6625",
+      "title": "Ergonomic Frozen Towels",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "price": "9206.1",
+      "category": "Musical Instruments",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "0.9",
+        "count": "1386"
+      }
+    },
+    {
+      "id": "1455c769-f7c2-4538-b3d7-ab18d18939ac",
+      "title": "Small Frozen Tuna",
+      "description": "Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "3726.05",
+      "category": "Crafts",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.6",
+        "count": "9722"
+      }
+    },
+    {
+      "id": "72b1c657-b3f9-4e8c-9f55-15beb85092d8",
+      "title": "Fantastic Fresh Sausages",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "3146.45",
+      "category": "CDs & Vinyl",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "4.7",
+        "count": "6318"
+      }
+    },
+    {
+      "id": "816567cb-7230-4174-a0bc-f79441759a99",
+      "title": "Incredible Fresh Bike",
+      "description": "Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "938.06",
+      "category": "Musical Instruments",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.2",
+        "count": "3277"
+      }
+    },
+    {
+      "id": "9db433d0-878d-45f4-9868-2ed832d93073",
+      "title": "Fantastic Wooden Sausages",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "price": "8384.99",
+      "category": "Video Games",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.8",
+        "count": "2043"
+      }
+    },
+    {
+      "id": "aede2a2a-3a1b-4b01-adfc-eb10ebad48a3",
+      "title": "Intelligent Wooden Bacon",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "price": "1919.1",
+      "category": "Automotive Parts & Accessories",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "3.3",
+        "count": "3442"
+      }
+    },
+    {
+      "id": "1e7bea13-a370-4ea5-bf96-b81b8085595a",
+      "title": "Sleek Wooden Bacon",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "price": "5519.74",
+      "category": "Baby & Personal Care",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.9",
+        "count": "9091"
+      }
+    },
+    {
+      "id": "0c6bf0b2-6398-4bd5-a890-cb967bf3011c",
+      "title": "Awesome Metal Pants",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "price": "8688.41",
+      "category": "Musical Instruments",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1.2",
+        "count": "6399"
+      }
+    },
+    {
+      "id": "b3304972-276b-47b1-a253-d84b8cf44619",
+      "title": "Rustic Cotton Gloves",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "price": "51.31",
+      "category": "Kindle",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "1",
+        "count": "8255"
+      }
+    },
+    {
+      "id": "80bea2de-95c1-4e49-a16f-bacffc8cab10",
+      "title": "Rustic Steel Sausages",
+      "description": "Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "3357.46",
+      "category": "Video Games",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "0.7",
+        "count": "3299"
+      }
+    },
+    {
+      "id": "32a53370-f451-4dd2-a73a-91d85b4a930f",
+      "title": "Licensed Concrete Fish",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "price": "9739.29",
+      "category": "Electronics",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.3",
+        "count": "6186"
+      }
+    },
+    {
+      "id": "7af78243-6861-4b53-90bd-f28fd50a81af",
+      "title": "Small Concrete Shoes",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "price": "1860.57",
+      "category": "CDs & Vinyl",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "0.3",
+        "count": "9423"
+      }
+    },
+    {
+      "id": "10f838be-50ae-4f18-943b-936c31555970",
+      "title": "Licensed Steel Sausages",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "price": "297.08",
+      "category": "Movies & TV",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.5",
+        "count": "9040"
+      }
+    },
+    {
+      "id": "e3690f15-0514-4826-9d16-406459200f23",
+      "title": "Unbranded Steel Sausages",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "price": "300.91",
+      "category": "Collectibles",
+      "image": "https://placeimg.com/500/500",
+      "rating": {
+        "rate": "2.6",
+        "count": "1134"
+      }
+    },
+    {
+      "title": "Rubber Duck",
+      "price": 158625,
+      "category": "Toys",
+      "description": "t may be made of rubber or rubber-like material such as vinyl plastic. Rubber ducks were invented in the late 1800s when it became possible to more easily shape rubber, and are believed to improve developmental skills in children during water play.",
+      "image": "https://media.istockphoto.com/photos/rubber-duck-picture-id657125714?k=20&m=657125714&s=170667a&w=0&h=QxUI_92kuUWhrhqFpI-lrT-jU8nB4LrQpkNwzjE4Eag=",
+      "rating": {
+        "rate": "5",
+        "count": "1"
+      },
+      "id": "_6e5GQw"
+    },
+    {
+      "title": "Teddy Bear",
+      "price": 12587,
+      "category": "Toys",
+      "description": "A teddy bear is a stuffed toy in the form of a bear. Developed apparently simultaneously by toymakers Morris Michtom in the U.S. and Richard Steiff under his aunt Margarete Steiff's company in Germany in the early 20th century, the teddy bear, named after President Theodore Roosevelt, became a popular children's toy and has been celebrated in story, song, and film.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81J4TvhJx1L._AC_SL1500_.jpg",
+      "rating": {
+        "rate": "5",
+        "count": "1"
+      },
+      "id": "iyH08Yf"
+    }
+  ]
+}
