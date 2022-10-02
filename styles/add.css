@@ -1,0 +1,158 @@
+body {
+  font-family: "Reem Kufi Fun", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 30%;
+  margin-right: 2em;
+  background-color: rgb(67, 181, 31);
+  text-align: center;
+  border-bottom-right-radius: 20px;
+}
+#logo img {
+  max-height: 10vh;
+  /* width: 100%; */
+}
+
+.phone {
+  display: flex;
+  width: 20%;
+}
+.phone img {
+  height: 30px;
+  width: 30px;
+}
+.phone p {
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+nav,
+.phone > p,
+.phone > img {
+  margin: auto 0;
+}
+
+nav {
+  padding: 1em;
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  max-width: 50%;
+}
+nav a {
+  padding: 0 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.493);
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:active {
+  color: rgb(67, 181, 31);
+}
+
+#loading {
+  width: 2rem;
+  height: 2rem;
+  border: 5px solid #f3f3f3;
+  border-top: 6px solid rgb(67, 181, 31);
+  border-radius: 100%;
+  margin: 1% auto;
+  display: none;
+  -webkit-animation: spin 1s infinite linear;
+          animation: spin 1s infinite linear;
+}
+
+#loading.display {
+  display: block;
+}
+
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+footer {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.formContainer {
+  background-color: rgba(0, 0, 0, 0.021);
+  border-radius: 20px;
+  margin: 2em auto;
+  padding: 2em;
+  width: 60%;
+}
+.formContainer h2 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+form[name=addItem],
+.formButtons {
+  margin: 1em auto;
+  width: 80%;
+}
+
+form[name=addItem] input[type=text],
+form[name=addItem] input[type=number],
+form[name=addItem] textarea {
+  display: block;
+  margin: 1em 0;
+  width: 100%;
+}
+
+.formButtons #buttonAdd,
+.formButtons button {
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+}
+
+.formButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttonAdd {
+  background-color: rgb(67, 181, 31);
+  color: white;
+}
+#buttonAdd:hover {
+  background-color: rgb(51, 134, 26);
+}
+
+.response {
+  border-radius: 20px;
+  margin: 1em auto;
+  padding: 1em 2em;
+  width: 80%;
+}
+
+.success {
+  background-color: rgb(120, 207, 93);
+}
+
+.fail {
+  background-color: rgb(235, 102, 102);
+}/*# sourceMappingURL=add.css.map */

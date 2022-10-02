@@ -6,9 +6,8 @@ export function fetchData(URL, callbackFunction1, callbackFunction2) {
     .then((response) => response.json())
     .then((data) => {
       callbackFunction1(data);
-      if (callbackFunction2) callbackFunction2(data);
+      callbackFunction2?.(data);  // optional chaining
       hideLoading();
-      return data;
     })
     .catch((error) => {
       console.error(error);

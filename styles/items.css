@@ -1,0 +1,186 @@
+body {
+  font-family: "Reem Kufi Fun", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 30%;
+  margin-right: 2em;
+  background-color: rgb(67, 181, 31);
+  text-align: center;
+  border-bottom-right-radius: 20px;
+}
+#logo img {
+  max-height: 10vh;
+  /* width: 100%; */
+}
+
+.phone {
+  display: flex;
+  width: 20%;
+}
+.phone img {
+  height: 30px;
+  width: 30px;
+}
+.phone p {
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+nav,
+.phone > p,
+.phone > img {
+  margin: auto 0;
+}
+
+nav {
+  padding: 1em;
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  max-width: 50%;
+}
+nav a {
+  padding: 0 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.493);
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:active {
+  color: rgb(67, 181, 31);
+}
+
+#loading {
+  width: 2rem;
+  height: 2rem;
+  border: 5px solid #f3f3f3;
+  border-top: 6px solid rgb(67, 181, 31);
+  border-radius: 100%;
+  margin: 1% auto;
+  display: none;
+  -webkit-animation: spin 1s infinite linear;
+          animation: spin 1s infinite linear;
+}
+
+#loading.display {
+  display: block;
+}
+
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+footer {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.topContainer {
+  display: flex;
+  width: 100%;
+}
+
+.filtersContainer {
+  width: 30%;
+}
+.filtersContainer ul {
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.493);
+  list-style: none;
+  margin: 2em;
+  padding: 2em;
+}
+.filtersContainer ul li {
+  font-size: larger;
+  padding-bottom: 0.5em;
+}
+.filtersContainer ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.imageContainer {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg");
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 2em;
+  width: 70%;
+}
+
+.itemsContainer {
+  background-color: rgba(235, 228, 228, 0.712);
+  border-radius: 20px;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(4, 25%);
+  margin: 2em;
+  padding: 2em;
+}
+
+.itemCard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em;
+  text-align: center;
+}
+.itemCard img {
+  border-radius: 10px;
+  height: 40%;
+  margin-top: 1em;
+  max-width: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.itemCard button {
+  border: 1px solid rgb(67, 181, 31);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 10px;
+}
+
+.stars-outer {
+  display: inline-block;
+  font-family: FontAwesome;
+  position: relative;
+}
+.stars-outer::before {
+  content: "\f006\f006\f006\f006\f006";
+}
+
+.stars-inner {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 0;
+}
+.stars-inner::before {
+  content: "\f005\f005\f005\f005\f005";
+  color: #f8ce0b;
+}/*# sourceMappingURL=items.css.map */

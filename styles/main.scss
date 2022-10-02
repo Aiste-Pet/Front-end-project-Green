@@ -1,0 +1,97 @@
+$accent_color: rgb(67, 181, 31);
+$text_color: rgb(0, 0, 0, 0.493);
+
+body {
+    font-family: "Reem Kufi Fun", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    background-color: $accent_color;
+    border-bottom-right-radius: 20px;
+    margin-right: 2em;
+    text-align: center;
+    width: 30%;
+
+    img {
+        max-height: 10vh;
+    }
+}
+
+.phone {
+    display: flex;
+    width: 20%;
+
+    img {
+        height: 30px;
+        width: 30px;
+    }
+
+    p {
+        color: $text_color;
+        padding: 1em;
+    }
+}
+
+nav,
+.phone>p,
+.phone>img {
+    margin: auto 0;
+}
+
+nav {
+    border: 1px solid $accent_color;
+    border-radius: 10px;
+    max-width: 50%;
+    padding: 1em;
+
+    a {
+        color: $text_color;
+        padding: 0 2em;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:active {
+            color: $accent_color;
+        }
+    }
+}
+
+#loading {
+    animation: spin 1s infinite linear;
+    border: 5px solid #f3f3f3;
+    border-radius: 100%;
+    border-top: 6px solid $accent_color;
+    display: none;
+    height: 2rem;
+    margin: 1% auto;
+    width: 2rem;
+
+}
+
+#loading.display {
+    display: block;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 1em;
+}

@@ -40,9 +40,9 @@ class Rating {
 createCategoriesDatalist();
 
 document.querySelector("#buttonAdd").addEventListener("click", (event) => {
-  const validity = document.querySelector("form").reportValidity();
-  if (validity === false) {
-    return validity;
+  const valid = document.querySelector("form").reportValidity();
+  if (!valid) {
+    return valid;
   }
   event.preventDefault;
   response.classList.remove("success", "fail");
@@ -71,12 +71,11 @@ document.querySelector("#buttonAdd").addEventListener("click", (event) => {
   } else {
     const rating = new Rating(rate, "1");
     const item = new Item(name, price, category, description, image, rating);
-    // addItem(item).then(() => document.querySelector("form").reset()); // leaving this commented until refresh after submit is solved
-    addItem(item);
+    addItem(item).then(() => document.querySelector("form").reset()); 
   }
 });
 
-// async function addItem(item) {
+// async function addItem(item) {  //alternative fetching with async try await
 //   displayLoading();
 //   try {
 //     await fetch(URL, {

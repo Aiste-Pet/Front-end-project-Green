@@ -11,14 +11,12 @@ import { appendItems } from "./items.js";
 const filterList = document.querySelector(".filtersContainer > ul");
 const itemsList = document.querySelector(".itemsContainer");
 let filters = [];
-let items = [];
 let deleteButtons = "";
 let categories = [];
 
 function getItems() {
   displayLoading();
-  const data = fetchData(URL, renderItems, renderCategories);
-  return data;
+  fetchData(URL, renderItems, renderCategories);
 }
 
 function renderCategories(items) {
@@ -36,4 +34,4 @@ export function renderItems(items) {
   elementsEvent(deleteButtons, deleteById, categories, itemsList, items);
 }
 
-items = getItems();
+getItems();

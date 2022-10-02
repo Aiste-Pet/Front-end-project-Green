@@ -1,0 +1,100 @@
+@use "main";
+
+$accent_color: rgb(67, 181, 31);
+$text_color: rgb(0, 0, 0, 0.493);
+
+.topContainer {
+    display: flex;
+    width: 100%;
+}
+
+.filtersContainer {
+    width: 30%;
+
+    ul {
+        border: 1px solid $accent_color;
+        border-radius: 10px;
+        color: $text_color;
+        list-style: none;
+        margin: 2em;
+        padding: 2em;
+
+        li {
+            font-size: larger;
+            padding-bottom: 0.5em;
+
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.imageContainer {
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg");
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 2em;
+    width: 70%;
+}
+
+.itemsContainer {
+    background-color: rgba(235, 228, 228, 0.712);
+    border-radius: 20px;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(4, 25%);
+    margin: 2em;
+    padding: 2em;
+}
+
+.itemCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2em;
+    text-align: center;
+
+    img {
+        border-radius: 10px;
+        height: 40%;
+        margin-top: 1em;
+        max-width: 80%;
+        object-fit: contain;
+    }
+
+    button {
+        border: 1px solid $accent_color;
+        border-radius: 10px;
+        margin: 1em;
+        padding: 10px;
+    }
+}
+
+.stars-outer {
+    display: inline-block;
+    font-family: FontAwesome;
+    position: relative;
+
+    &::before {
+        content: "\f006 \f006 \f006 \f006 \f006";
+    }
+}
+
+.stars-inner {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 0;
+
+    &::before {
+        content: "\f005 \f005 \f005 \f005 \f005";
+        color: #f8ce0b;
+    }
+}
